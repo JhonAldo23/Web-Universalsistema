@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: darkblue
+}
+body{
+    font-family: Century Gothic;
+    font-size: 24px;
+}
+table {
+    width:100%;
+    font-size: 26px;
+}
+table, th, td {
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+#t01 th {
+    background-color: blue;
+    color: white;
+}
+p.p01 {
+    text-align: center
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    background-image: url("imagen/universob.jpg");
+}
+
+.header h1 {
+    font-size: 50px;
+    color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a:link, a:visited {
+    float: left;
+    display: block;
+    color: white;
+    border: 4px solid black;
+    background-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover, a:active {
+    background-color: white;
+    color: black;
+}
